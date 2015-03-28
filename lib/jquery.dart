@@ -1,3 +1,5 @@
+// jQuery library declaration file.
+
 import "dart:html";
 
 // Approach 1. Just declaration of interfaces. Transformer will transform all
