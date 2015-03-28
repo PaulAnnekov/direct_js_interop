@@ -2,7 +2,7 @@
 Concept of interoperability between Dart and JS. The main idea is that you write
 code on Dart that is exact as JS code. So instead of this:
 
-```
+```dart
 context.callMethod(r'$',['div']).callMethod('each',[(index,element) {
   element.style.color='#ccc';
   print(index);
@@ -11,7 +11,7 @@ context.callMethod(r'$',['div']).callMethod('each',[(index,element) {
 
 you write this (and IDE understands you):
 
-```
+```dart
 $('div').each((index, element) {
   element.style.color='#ccc';
   print(index);
