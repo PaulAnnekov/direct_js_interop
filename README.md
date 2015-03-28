@@ -19,3 +19,8 @@ $('div').each((index, element) {
 ```
 
 and transformer will do the rest.
+
+To help IDE and transformer understand the code we use declaration files as in
+TypeScript (http://www.typescriptlang.org/Handbook#writing-dts-files). We can
+even try to automatically convert them (https://github.com/borisyankov/DefinitelyTyped)
+to Dart.
