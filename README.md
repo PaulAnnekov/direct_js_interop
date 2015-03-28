@@ -9,7 +9,7 @@ context.callMethod(r'$',['div']).callMethod('each',[(index,element) {
 }]);
 ```
 
-you write this (IDE understands you):
+you write this (and IDE understands you):
 
 ```
 $('div').each((index, element) {
